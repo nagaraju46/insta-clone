@@ -1,0 +1,48 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.register > h3 {
+  padding: 30px;
+  font-size: 30px;
+}
+
+.register__container {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid lightgrey;
+}
+
+.register__container > form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.register__container > form > input {
+  padding: 10px;
+  border: 1px solid lightgrey;
+  outline: none;
+}
+
+.register__container > form > button {
+  padding: 10px;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  outline: none;
+  background-color: #5ed0f7;
+}
+
+.register__container > form > h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.register__login {
+  padding: 5px;
+  text-decoration: none;
+}
